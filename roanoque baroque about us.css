@@ -1,0 +1,80 @@
+body {   
+    font-family: 'Oldenburg', ariel, helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black; #ffc;
+    margin: 40px; 
+    padding: 0; 
+    background-image: url("http://bgfons.com/uploads/paper/paper_texture602.jpg");
+    background-size: cover;
+    background-color: #f2eecb;
+}
+
+
+li {
+    display: inline-block;
+    margin: 70px;
+    font-size: 38px;
+    font-family: 'Oldenburg, ariel, helvetica, sans-serif;
+}
+li:hover {
+    background-color:#f2eecb;
+}
+
+.img-baroque {
+    text-align: center
+}  
+
+h1 { 
+    background-image: url("https://blogs.loc.gov/music/files/2012/04/0589a.jpg");
+    background-size:100%;
+    background-position: center;
+    height: 350px;
+    color: #f2eecb;
+    font-family:'windsong', cursive;
+    font-size: 3.25em; 
+    font-weight: bold;
+    margin: 5px; 
+    padding: 60px;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+
+
+
+div {
+     font-family:'windsong', ariel, helvetica, sans-serif;
+     line-height:5px;
+     margin: 40px;
+     padding: 10px;
+     font-size: 1.5em; 
+     
+}
+
+ul {
+   font-weight: bold;
+     
+}
+
+
+p {
+     margin: 60px;
+}
+
+h2 {
+    font-family: 'Windsong', ariel, helvetica, sans-serif;
+}
+
+h3 {
+     font-size: 15px;
+     text-align: center;
+     width: 95%;
+     margin: 0;
+     padding: 40px; 
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

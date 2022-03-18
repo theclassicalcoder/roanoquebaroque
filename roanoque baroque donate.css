@@ -1,0 +1,34 @@
+body {   
+    font-family: ariel, helvetica, sans-serif;
+    font-size: 20px;
+    color: black; #ffc;
+    margin: 40px;
+    padding: 0; 
+}
+
+
+li {
+    display: inline-block;
+    margin: 70px;
+    font-size: 35px;
+    font-family: baroque;
+}
+    
+
+h1 { 
+    color: #ffc;
+    background-color: #900;
+    font-family:'windsong', cursive;
+    font-size: 3em; 
+    margin: 20px; 
+    padding: 8px;
+    text-align: left;
+    letter-spacing: 0.5em;
+}
+
+p {
+     font-family:'windsong', cursive;
+     line-height:21px;
+     margin: 60px 
+     
+}

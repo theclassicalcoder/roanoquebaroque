@@ -1,0 +1,148 @@
+body {   
+    font-family: 'Oldenburg', ariel, helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black; #ffc;
+    margin: 40px; 
+    padding: 0; 
+    background-image: url("http://bgfons.com/uploads/paper/paper_texture602.jpg");
+    background-attachment: fixed;
+    background-color: #f2eecb;
+}
+
+
+li {
+    display: inline-block;
+    margin: 40px;
+    font-size: 38px;
+    font-family: 'Oldenburg, ariel, helvetica, sans-serif;
+}
+li:hover {
+    background-color:#f2eecb;
+}
+
+.img-baroque {
+    text-align: center
+}  
+
+h1 { 
+    background-image: url("https://blogs.loc.gov/music/files/2012/04/0589a.jpg");
+    background-size:100%;
+    background-position: center;
+    height: 350px;
+    color: #f2eecb;
+    font-family:'windsong', cursive;
+    font-size: 3.25em; 
+    font-weight: bold;
+    margin: 5px; 
+    padding: 60px;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+
+
+
+div {
+     font-family:'windsong', ariel, helvetica, sans-serif;
+     line-height:5px;
+     margin: 40px;
+     padding: 10px;
+     font-size: 1.5em; 
+}
+
+
+
+ul {
+   font-weight: bold;
+   padding: 0;
+   
+     
+}
+nav {
+   position: center;
+}
+
+.index {
+     margin: 60px;
+     
+}
+
+.about us {
+     margin: 60px;
+    
+    
+}
+
+.performances {
+     margin: 60px;
+    
+}
+
+.donate {
+     margin: 60px;
+     
+}
+
+h3 {
+     font-size: 15px;
+     text-align: center;
+     width: 100%;
+     margin: 0;
+     padding: 40px;
+     background-color:#f2eecb;
+}
+
+#text {
+    font-family: 'Oldenburg', ariel, helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black; #ffc;
+     }
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #654321;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #412B15;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2eecb;
+  padding: 20px;
+  font-family: 'Oldenburg', ariel, helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black; #ffc;
+}
+
+footer {
+
+ 
+   color: black;
+   text-align: center;
+   font-size: 15px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
