@@ -10,56 +10,46 @@
     <link rel="stylesheet" href="main.css">
     <title>Roanoque Baroque</title>
 </head>
-
 <script>  
 function dropdownMenu() {  
 var list = document.getElementById("option");  
 document.getElementById("method").value = list.options[list.selectedIndex].text;  
 }  
 </script>
-
 <body>
-     <h1> Roanoque Baroque</h1>
-     <div>Live baroque music for the Roanoke valley
-     </div>
-     <nav>
-         <ul>
-             <li><a href="index.html">Home</a></li>
-             <li><a href="roanoque baroque about us.html">About us</a></li>
-             <li id="selected"><a href="roanoque baroque performances.html">Performances</a></li>
-             <li><a href="roanoque baroque donate.html">Contact Us/Donate</a></li>
-         </ul>
-      </nav>
-      <br>
-
+    <h1> Roanoque Baroque</h1>
+    <div>Live baroque music for the Roanoke valley
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="roanoque baroque about us.html">About us</a></li>
+            <li id="selected"><a href="roanoque baroque performances.html">Performances</a></li>
+            <li><a href="roanoque baroque donate.html">Contact Us/Donate</a></li>
+        </ul>
+    </nav>
+    <br>
 <div class="container">
   <form action="action_page.php">
-
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
     <label for="lname">Last Name</label>
     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="how did you hear about us">How did you hear about us?</label>
-    
-   <select id = "option" onchange = "dropdownMenu()" >  
+    <label for="how did you hear about us">How did you hear about us?</label>  
+  <select id = "option" onchange = "dropdownMenu()" >  
 	<option> ---Choose Method--- </option>  
 	<option> Word of Mouth </option>  
 	<option> Internet search </option>  
 	<option> St.John Lutheran church </option>  
-   </select>  
-
+  </select>  
 <label for="Reason for Contact">Reason for Contact</label>
 <select id="option" onchange='on_change(this)'> // Note the onchange event handler, which passes the select object to the on_change function via the 'this' variable
     <option value='One'>---Choose Method--- </option>
     <option value='Two'>To speak with us</option> // Note I added value='one'
     <option value='Three'>To donate to Roanoque Baroque</option> // Note I added value='two'
 </select>
-
 <div id="text" style="display:none;"> Please indicate which method of donation is best for you - i.e credit card, check, stock transfer, etc. 
 </div>
-
 <script>
     function on_change(el){
         if(el.options[el.selectedIndex].value == 'Three'){ 
@@ -69,16 +59,12 @@ document.getElementById("method").value = list.options[list.selectedIndex].text;
         }
     }
 </script>
-
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
     <input type="submit" value="Submit">
-
   </form>
 </div>
-
-
- <footer>Website built by Kevin Pfister
- </footer>
+    <footer>Website built by Kevin Pfister
+    </footer>
+</body>
 </html>
